@@ -1,0 +1,51 @@
+.chatInput{
+    border-radius: 20px;
+}
+
+.chatInput__form{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.chatInput__input{
+    position: fixed;
+    bottom: 50px;
+    min-width: 70%;
+    border: 1px solid gray;
+    border-bottom: none;
+    border-radius: 3px;
+    padding: 20px;
+    outline: none;
+}
+.chatInput__btn{
+    display: none;
+}
+
+
+.icons__div{
+    background-color: whitesmoke;
+    position: fixed;
+    bottom: -20px;
+    min-width: 70%;
+    border: 1px solid gray;
+    border-radius: 3px;
+    border-top: none;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.icons{
+    margin-left: 5px;
+    margin-right: 5px;
+    opacity: 0.6;
+    cursor: pointer;
+    font-size: 17px;
+    padding: 10px;
+}
+
+.icons:hover{
+    opacity: 1;
+    background: lightgray;
+}

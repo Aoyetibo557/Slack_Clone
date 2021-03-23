@@ -1,0 +1,37 @@
+.emptystate{
+    display: flex;
+    flex-direction: column;
+}
+
+.emptystate::before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url('../images/Slack_RGB.svg') #49274b;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40vw;
+    background-attachment: fixed;
+    /* opacity: 0.4; */
+
+}
+
+.emptystate h2{
+    font-weight: 500;
+    font-size: 2rem;
+    color: #fff;
+}
+
+ul{
+    list-style: armenian;
+}
+
+li{
+    font-weight: 200;
+    font-size: 20px;
+    color: #fff;
+}
