@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## View Live app
+
+Check out the live app hosted on firebase [Live App](https://slack-clone-c0e20.web.app/)
+
 ## Available Scripts
 
 In the project directory, you can run:
